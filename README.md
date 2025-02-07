@@ -190,7 +190,7 @@ Xem chi tiết tại đây: [Optimal_Skills](Optimal_Skill.ipynb).
 #### Trực quan hóa dữ liệu
 
 ```python
-from adjustText import adjust_text
+
 import matplotlib.pyplot as plt
 
 plt.scatter(df_DA_skills_high_demand['skill_percent'], df_DA_skills_high_demand['median_salary'])
